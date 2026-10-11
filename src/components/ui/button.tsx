@@ -9,6 +9,8 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
+        pixel: "rounded-[2px] border border-pixel-line bg-primary text-primary-foreground shadow-[3px_3px_0_var(--border)] hover:bg-primary/90 active:translate-y-px",
+        pixelOutline: "rounded-[2px] border border-input bg-card text-foreground shadow-[2px_2px_0_var(--border)] hover:bg-secondary",
         default: "bg-primary text-primary-foreground shadow hover:bg-primary/90",
         destructive: "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90",
         outline:
