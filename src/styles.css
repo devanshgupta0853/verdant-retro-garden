@@ -274,7 +274,7 @@ button, a, input, select, textarea { -webkit-tap-highlight-color: transparent; }
   .page-heading h1 { font-size:34px; }
   .garden-scene { height:245px; margin-left:-20px; margin-right:-20px; }
   .scene-copy { padding:28px 20px; max-width:62%; }
-  .scene-copy h2 { font-size:36px; margin:15px 0 10px; }
+  .scene-copy h2 { font-size:32px; margin:15px 0 10px; }
   .scene-copy p { font-size:11px; max-width:175px; }
   .scene-art { width:225px; height:225px; right:-31px; bottom:-5px; }
   .scene-sun { right:25px; top:30px; width:22px; height:22px; }
@@ -292,6 +292,9 @@ button, a, input, select, textarea { -webkit-tap-highlight-color: transparent; }
   .plant-card { display:grid; grid-template-columns:100px 1fr; gap:16px; align-items:center; }
   .plant-art { height:120px; margin:0; }
   .section-title h2 { font-size:26px; }
+  .section-title > .flex { gap:7px; }
+  .section-title > .flex h2 { white-space:nowrap; font-size:23px; }
+  .section-title > .flex .small-badge { font-size:8px; padding:4px 5px; white-space:nowrap; }
   .header-status { display:none; }
   .data-table { font-size:11px; }
   .data-table td,.data-table th { padding:13px 10px; }
